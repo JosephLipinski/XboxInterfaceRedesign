@@ -4,9 +4,9 @@
 
 3) Choose which games/achievements to public display
     Displayed inline vertically
-    Game > Name
-         > Genre
-         > Hours Played
+    Game: Name
+          Genre
+          Hours Played
 
     Displayed inline horizontally
     Achievements
