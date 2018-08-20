@@ -1,0 +1,156 @@
+body {
+    position: relative;
+    width:100vw;
+    font-family: sans-serif;
+    height:100vh;
+}
+
+#nav li a { 
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 15px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 900;
+    margin-left: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#nav li a:hover {
+    border-bottom: 2px red solid;
+}
+#nav { 
+  width:250px;
+    background-color: black;
+    height:100%;
+    left:0px;
+    float:left;
+    padding:50px;
+}
+
+#logo {
+    width:150px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+#nav p {
+    color: white;
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+b {
+    color:grey;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+#lilpro img {
+    width:80%;
+    margin:0 auto;
+    display: block;
+}
+
+#lilpro {
+    position: relative;
+    height:100px;
+}
+.left {
+    float:left;
+    width:30%;
+    height:80px;
+}
+
+.right {
+    float: left;
+    width:70%;
+    height:80px;
+    padding-top: 15px;
+}
+
+#lilpro em {
+    background-color: white;
+    border-radius: 100px;
+    padding:2px 4px;
+    font-size: 10px;
+    color:black;
+    font-weight: 900;
+    margin-right: 3px;
+}
+
+#content {
+    position: relative;
+    float:left;
+    width:800px;
+    text-align: center;
+    margin-left:10px;
+    
+}
+
+#profile {
+    margin:20px auto;
+    
+}
+#propic {
+    margin:0px auto;
+    display: block;
+    
+}
+
+#profile p {
+    display: inline-block;
+    text-align: left;
+    padding-right: 20px;
+    font-size: 12px;
+}
+
+
+
+#profile em {
+    
+    background-color: #000;
+    border-radius: 100px;
+    color:#fff;
+    font-weight: 900;
+    font-size: 10px;
+    padding:2px 5px;
+}
+
+#profile h1 {
+    font-weight: 900;
+    margin: 10px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+#acheivments {
+    margin:20px auto;
+    width:500px;
+}
+.acheivment {
+    
+    float:left;
+    width:30%;
+}
+
+.acheivment img {
+    width:150px;
+}
+
+#profile a {
+    margin: 240px auto;
+    display: block;
+    width:300px;
+    background-color: #34c80c;
+    padding:10px;
+    color: #000;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+    border:black 3px solid;
+}
