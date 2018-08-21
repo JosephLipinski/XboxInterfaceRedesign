@@ -83,6 +83,7 @@ b {
 }
 
 #content {
+    margin-top: 3%;
     position: relative;
     float:left;
     width:800px;
@@ -166,6 +167,8 @@ b {
     border-radius: 10px;
     border:black 3px solid;
     border-top-style: none;
+
+    
 }
 
 
