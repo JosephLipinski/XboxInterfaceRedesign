@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title> Xbox Profile Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <nav>
+            <ul id="nav">
+                <img id="logo" src="img/xbox.png">
+
+                <div id="lilpro">
+                    <div class="left">
+                        <img src="img/trump.png">
+                    </div>
+                    <div class="right">
+                        <p>lilhands18 <b>Donald Trump</b></p>
+                        <p><em>G</em> 2983</p>
+                    </div>
+                </div>
+
+                <li><a href="index.html">My Profile</a></li>
+
+                <li><a href="#">My Games</a></li>
+                <li><a href="#">Clubs</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Store</a></li>
+
+                <li><a><input id="search" type="text" placeholder="Enter GamerTag"></a></li>
+                <li><a><button type = "button" onclick="SearchForTag()" > Search</button></a></li>
+
+                <li><a href="#">Connection</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </nav>
+
+
+        <div id="content">
+            <div id="compare">
+              <div id="profiles">
+                <div id="me" >
+                  <div class="medpro">
+                      <div class="left">
+                            <img src="img/trump.png"/>
+                      </div>
+                      <div class="right">
+                            <p>lilhands18</p>
+                            <p><b>Donald Trump</b></p>
+                            <p><em>G</em> 2983</p>
+                      </div>
+                    </div>
+                </div>
+
+                <div id="them">
+                  <div class="medpro">
+                      <div class="left">
+                          <img src="img/artsy.png"/>
+                      </div>
+                      <div class="right">
+                          <p>@rtsyGuy</p>
+                          <p><b>John Painter</b></p>
+                          <p><em>G</em> 1083</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+                <div>
+                    <ul id="comparestats">
+                        <li>
+                            <ul class="stat">
+                              <li><h1>Average Game Completion</h1></li>
+                              <li><p>lilhands18</p><img src="img/22bar.png"/></li>
+                              <li><p>@rtsyGuy</p><img src="img/22bar.png"/></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="stat">
+                              <li><h1>GamerScore Monthly Status</h1></li>
+                              <li><p>lilhands18</p><img src="img/22bar.png"/></li>
+                              <li><p>@rtsyGuy</p><img src="img/22bar.png"/></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="stat">
+                              <li><h1>Win Rate</h1></li>
+                              <li><p>lilhands18</p><img src="img/22bar.png"/></li>
+                              <li><p>@rtsyGuy</p><img src="img/22bar.png"/></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a href="#">compare more acheivments</a>
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+
+
+        </footer>
+
+    </body>
+
+    <script>
+        function SearchForTag(){
+            console.log(document.getElementById("search").value);
+            document.location = "./" + document.getElementById("search").value +".html"
+
+
+            return false;
+        }
+        function CompareProfile(){
+            console.log("PRESSED");
+        }
+    </script>
+
+</html>

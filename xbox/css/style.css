@@ -5,7 +5,7 @@ body {
     height:100vh;
 }
 
-#nav li a { 
+#nav li a {
     text-decoration: none;
     color:white;
     display: block;
@@ -21,7 +21,7 @@ body {
 #nav li a:hover {
     border-bottom: 2px red solid;
 }
-#nav { 
+#nav {
   width:250px;
     background-color: black;
     height:100%;
@@ -88,17 +88,17 @@ b {
     width:800px;
     text-align: center;
     margin-left:10px;
-    
+
 }
 
 #profile {
     margin:20px auto;
-    
+
 }
 #propic {
     margin:0px auto;
     display: block;
-    
+
 }
 
 #profile p {
@@ -108,10 +108,8 @@ b {
     font-size: 12px;
 }
 
-
-
 #profile em {
-    
+
     background-color: #000;
     border-radius: 100px;
     color:#fff;
@@ -131,7 +129,7 @@ b {
     width:500px;
 }
 .acheivment {
-    
+
     float:left;
     width:30%;
 }
@@ -153,4 +151,114 @@ b {
     text-decoration: none;
     border-radius: 10px;
     border:black 3px solid;
+}
+
+#compareButton {
+    text-align: center;
+    width:300px;
+    background-color: #34c80c;
+    padding:10px;
+    color: #000;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+    border:black 3px solid;
+    border-top-style: none;
+}
+
+
+#compare {
+    margin:20px auto;
+}
+
+#compare a {
+    margin: 40px auto;
+    display: block;
+    text-align: center;
+    width:300px;
+    background-color: #34c80c;
+    padding:10px;
+    color: #000;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+    border:black 3px solid;
+}
+
+#profiles{
+  margin: 0;
+  display: block;
+  text-align: right;
+}
+
+#me {
+  width: 45%;
+  display: inline-block;
+}
+
+#them {
+  width: 45%;
+  display: inline-block;
+}
+
+#comparestats {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#comparestats h1 {
+  font-weight: 900;
+  font-size: 20px;
+  text-align: left;
+  border-bottom:black 1px solid;
+}
+
+#comparestats li {
+  margin: 10px 10px auto;
+}
+
+.stat {
+  margin-bottom: 40px;
+}
+
+.stat img {
+  width: 95%;
+}
+
+.medpro {
+    positon: relative;
+    text-align: left;
+
+}
+
+.medpro img {
+    width:100%;
+    margin:0 auto;
+    display: block;
+
+}
+
+.medpro em {
+    background-color: black;
+    border-radius: 100px;
+    padding:2px 4px;
+    font-size: 10px;
+    color:white;
+    font-weight: 900;
+    margin-right: 3px;
+}
+
+.medpro p {
+    color: black;
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.medpro b {
+  margin-left: 0;
 }
