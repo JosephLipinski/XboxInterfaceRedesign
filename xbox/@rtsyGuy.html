@@ -78,11 +78,18 @@
     <script>
         function SearchForTag(){
             console.log(document.getElementById("search").value);
-            document.location = "./" + document.getElementById("search").value +".html"
-
-
+			name = document.getElementById("search").value;
+			
+			if (name == "@rtsyGuy") {
+				document.location = "./" + name +".html";
+			} else {
+				document.location = "./nomatch.html?name="+name;
+			}
+            
+            
             return false;
         }
+		
         function CompareProfile(){
           //TODO: If we add more searchable profiles, I'll implement this
           //and use it to propogate the compare page with correct info.

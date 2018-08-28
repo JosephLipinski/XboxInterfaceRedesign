@@ -3,10 +3,19 @@
         <title> Xbox Profile Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">   
+        <link rel="stylesheet" href="css/style.css">  
+
+		<style>
+			#nomatch h1 {
+				font-weight: 900;
+				font-size: 20px;
+			}
+		
+		</style>
+		
     </head>
     
-    <body>
+    <body onload="fillName()">
 
         <nav>
             <ul id="nav">
@@ -37,32 +46,13 @@
                 <li><a href="#">Feedback</a></li>
             </ul>
         </nav>
+
         
         <div id="content">
-            <div id="profile">
-                <img id="propic" src="img/trump.png">
-                <h1>lilhands18</h1>
-                <p>Donald Trump</p>
-                <p><em>G</em> 2983</p>
-                <p>Washington DC, USA</p>
-                <p>33 Friends</p>
-                
-                <div id="acheivments">
-                    <div class="acheivment">
-                        <img src="img/win.png">
-                        <h2>Average Game Completion</h2>
-                    </div>
-                    <div class="acheivment">
-                        <img src="img/win.png">
-                        <h2>GamerScore Monthly Status</h2>
-                    </div>
-                    <div class="acheivment">
-                        <img src="img/win.png">
-                        <h2>Win Rate</h2>
-                    </div>
-                </div>
-                
-                <a href="#">view more achievements</a>
+           
+            
+            <div id="nomatch">
+                <h1>No results found for <em id="name">name</em>.</h1>
             </div>
             
         </div>
@@ -88,6 +78,13 @@
             
             return false;
         }
+		
+        function fillName(){
+            query = location.search;
+			eqIndex = query.indexOf("=");
+			name = query.slice(eqIndex+1);
+			document.getElementById("name").textContent = '"'+name+'"';
+		}
     </script>
 
 </html>
